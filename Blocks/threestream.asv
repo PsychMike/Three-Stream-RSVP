@@ -383,7 +383,7 @@ elseif strcmp(Modeflag,'InitializeTrial')
     %     sendmarkerwpause(Parameters,Parameters.MARKERS.FALSETARGTIME + dist_b4_falsetarg - 15); %EEG marker for false target time
     
     %
-    cd_or_ft = mod(counterbalance_cdft(critical_distractor),2)+1;
+    cd_or_ft = counterbalance_cdft(critical_distractor);
     
     num_displays = 15;
     
